@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+
+    <meta name="description" content="Encriptadora, cambio de letras no-procedural">
+    <meta property='og:description' content="Encriptadora, cambio de letras no-procedural">
+    <meta property="og:type" content="website">
+    <meta property="og:tittle" content="Encriptador">
+    <meta property="og:site_name" content="Encriptador">
+    
+    
+    <link rel="icon" href="./assets/vectorIcon.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/d8c0315007.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>  
+    <!-- Main  -->
+
+    <main>
+        <div class="logo">
+            <img src="./assets/Vector.png" alt="logo-alura"> 
+
+        </div>
+        
+        
+        <div class="rec-izq">
+
+            <textarea id="textoEncriptado" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div class="adv">
+                <p><i class="fa-solid fa-circle-exclamation" ></i>   Solo letras minúsculas y sin acentos</p> 
+            </div> 
+
+            <div class="buttons">
+                <button class="btn-encriptar" id="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar"id="btn-desencriptar">Desencriptar</button>
+
+            </div>
+
+        </div>
+        <div class="rec-der">
+
+            <textarea id="textoDesencriptado" rows="10" cols="20">
+            </textarea>
+            <div class="button-c"><button class="btn-copiar"id="btn-copiar">Copiar</button></div>
+            
+
+        </div>
+    </main>
+
+<script src="index.js"></script>
+
+<script>
+    var btn =document.querySelector("#btn-encriptar"); 
+    btn.onclick = encriptar;
+
+    var btn2 =document.querySelector("#btn-desencriptar"); 
+    btn2.onclick = desencriptar;
+
+    var btn3 =document.querySelector("#btn-copiar"); 
+    btn3.onclick = copiar;
+
+
+</script>
+
+</body>
+</html>
