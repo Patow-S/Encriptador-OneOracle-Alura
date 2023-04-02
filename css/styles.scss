@@ -17,7 +17,6 @@ body{
     background : #E5E5E5;
     font-weight: 400;
     font-size: 32px;
-
 }
 
 p{
@@ -29,7 +28,6 @@ textarea{
     margin-top: 40px;
     padding: 10px;
     font-size: 25px;
-
     &:focus {
         outline: none;
     }
@@ -86,7 +84,6 @@ main{
             }
         }
     }
-
     .rec-der{        
         textarea{
             background-image: url("/assets/Muñeco.png");
@@ -115,9 +112,7 @@ main{
             height: 50px;
             position: absolute;
             margin-top: 495px;
-            margin-left: 60px;
-            
-
+            margin-left: 59px;
         }
     }
 }

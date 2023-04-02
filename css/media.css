@@ -1,27 +1,21 @@
 @media all and (max-width: 1116px){
-    
     main{    
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         align-content: center;
-
     }
-
     main .logo {
         margin: 3%;
         display: block;
     }
-    
     main .rec-izq{
         margin: auto;
     }
-
     main .rec-der{
         margin: auto;
 
     }
-    
     main .rec-der textarea {
         min-height: 250px;
         max-height: 400px;
@@ -29,7 +23,6 @@
         min-width: 600px;
         position: inherit;
     }
-
     main .rec-der .btn-copiar{
         margin: 15px;
         position: inherit;
@@ -41,23 +34,18 @@
     }
 }
 @media all and (max-width: 768px){
-
     main .rec-izq textarea {
         min-height: 250px;
         max-height: 400px;
         max-width: 500px;
         min-width: 500px;
-
-
     }
-
     main .rec-der textarea {
         min-height: 250px;
         max-height: 400px;
         max-width: 500px;
         min-width: 500px;
     }
-
     main .rec-izq .buttons {
         display: flex;
         flex-direction: column;
@@ -72,8 +60,6 @@
         margin-top: 10px;
         width: 65%;
     }
-
-
 }
 
 
